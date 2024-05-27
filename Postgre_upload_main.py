@@ -16,9 +16,9 @@ def create_connection():
     try:
         # Параметри підключення
         connection = psycopg2.connect(
-            dbname="csv_test",
-            user="postgres",
-            password="123",
+            dbname="dbname",
+            user="user",
+            password="password",
             host="localhost",
             port="5432"
         )
